@@ -40,7 +40,7 @@ export default function IntroScreen() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center mb-8">
             <motion.div
               className="relative"
               animate={{
@@ -52,19 +52,24 @@ export default function IntroScreen() {
                 ease: "easeInOut",
               }}
             >
-              <div className="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center">
-                <Activity className="w-12 h-12 text-primary" />
-              </div>
+              <img 
+                src="/feriscan-logo.png" 
+                alt="Feriscan Logo" 
+                className="w-48 h-auto drop-shadow-2xl"
+              />
               <motion.div
-                className="absolute inset-0 rounded-full border-2 border-primary/50"
+                className="absolute inset-0 rounded-lg"
                 animate={{
-                  scale: [1, 1.3, 1],
-                  opacity: [0.5, 0, 0.5],
+                  scale: [1, 1.1, 1],
+                  opacity: [0.3, 0, 0.3],
                 }}
                 transition={{
                   duration: 2,
                   repeat: Infinity,
                   ease: "easeOut",
+                }}
+                style={{
+                  background: 'radial-gradient(circle, rgba(237, 26, 59, 0.3) 0%, transparent 70%)',
                 }}
               />
             </motion.div>

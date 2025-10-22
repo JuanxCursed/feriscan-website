@@ -44,7 +44,11 @@ export default function ResultsDashboard() {
       >
         <div className="container py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <Activity className="w-8 h-8 text-primary" />
+            <img 
+              src="/feriscan-logo.png" 
+              alt="Feriscan Logo" 
+              className="h-12 w-auto"
+            />
             <div>
               <h1 className="text-2xl font-bold">Feriscan</h1>
               <p className="text-sm text-muted-foreground">Relatório de Análise</p>
