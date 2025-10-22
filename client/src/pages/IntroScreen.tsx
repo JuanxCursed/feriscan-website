@@ -74,10 +74,6 @@ export default function IntroScreen() {
               />
             </motion.div>
           </div>
-
-          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-foreground to-primary bg-clip-text text-transparent">
-            Feriscan
-          </h1>
           <p className="text-2xl text-primary font-semibold mb-2">
             A evolução no cuidado de feridas
           </p>
